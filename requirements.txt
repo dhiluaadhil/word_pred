@@ -1,0 +1,7 @@
+# Server dependencies only — no TensorFlow!
+onnxruntime==1.17.3
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+numpy==1.26.4
+# pad_sequences is from keras — use the standalone package to avoid pulling in TF
+keras==2.15.0
